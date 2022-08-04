@@ -1,0 +1,44 @@
+.cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 13px rgba(0,0,0,0.2);
+  margin-bottom: 200px;
+}
+
+.text-center {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.card {
+  display: block;
+  margin-left: 30px;
+  text-align: center;
+  padding: 15px;
+  align-items: center;
+}
+.card h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+.card p {
+  color:black;
+  font-size: 18px;
+  margin-bottom: 50px;
+
+}
+
+.card-img {
+  width: 300px;
+  height: 350px;
+  overflow: hidden;
+  box-shadow: 0 0 11px rgba(0,0,0,0.2);
+}
+
+.card-img:hover {
+  -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
