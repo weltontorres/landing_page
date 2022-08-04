@@ -5,6 +5,7 @@
 /* Links CSS files */
 @import url('components/banner.css');
 @import url('components/card.css');
+@import url('components/footer.css');
 
 /* Fontawesome */
 @import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
